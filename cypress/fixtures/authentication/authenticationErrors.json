@@ -1,0 +1,11 @@
+{
+    "errors": {
+        "emailCannotBlank": "email can't be blank",
+        "usernameCannotBlank": "username can't be blank",
+        "passwordCannotBlank": "password can't be blank",
+        "titleannotBlank": "title can't be blank",
+        "bodyCannotBlank": "body can't be blank",
+        "descriptionCannotBlank": "description can't be blank",
+        "cannotBeBlank": "can't be blank"
+    }
+}

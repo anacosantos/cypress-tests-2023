@@ -1,0 +1,15 @@
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
+        with:
+          build: npm install 
+          start: npx cypress run --browser chrome --record --key 66a3e8e5-cc78-4ef5-82f2-d92d75b07616

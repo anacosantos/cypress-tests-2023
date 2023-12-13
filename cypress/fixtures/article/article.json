@@ -1,0 +1,10 @@
+{
+    "article": {
+        "title": "my article",
+        "description": "my article is about my test",
+        "body": "I'm doing a qa tests",
+        "tagList": [
+            "qaTest"
+        ]
+    }
+}
